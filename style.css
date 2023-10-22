@@ -111,16 +111,18 @@ nav {
 }
 .secondchild {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
+  align-items: center;
   align-items: center;
   gap: 2rem;
   margin-left: 4rem;
 }
-.grandchild {
+.steps {
   width: 39%;
 }
 .step-container {
   display: flex;
+  align-items: center;
   flex-direction: row;
   gap: 1rem;
 }
@@ -137,9 +139,18 @@ nav {
 
 /* HERO SECTION 3 */
 .hero3-container {
+  position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+}
+.hero3-container h2 {
+  position: absolute;
+  justify-content: center;
+  margin-top: 3rem;
+  font-size: 36px;
+  font: weight 500px;
+
 }
 .hero3-container h3 {
   font-weight: 700;
@@ -148,9 +159,11 @@ nav {
 .hero3-container p {
   font-weight: 500;
   font-size: 18px;
+
 }
 .child {
   background-color: #a792fe12;
+  flex: 1;
   padding-top: 12rem;
   padding-left: 13rem;
   padding-right: 4rem;
@@ -158,13 +171,14 @@ nav {
 }
 
 .child2 {
+  flex: 1;
   padding-top: 12rem;
   padding-right: 13rem;
   padding-left: 4rem;
   padding-bottom: 10rem;
 }
 .child2 img {
-  padding: 1rem;
+  padding: .9rem;
   border-radius: 50%;
 }
 /* HERO SECTION 3 */
@@ -242,7 +256,7 @@ button {
   .hero2-container {
     padding: 0px;
   }
-  .grandchild {
+  .steps {
     width: 100%;
     padding: 2rem;
   }
@@ -251,8 +265,6 @@ button {
   }
   .fa-bars {
     display: block;
-    justify-content: center;
-    align-items: center;
   }
 }
 @media (max-width: 860px) {
@@ -267,7 +279,9 @@ button {
     margin-top: 3rem;
     font-size: 30px;
   }
-
+.hero3-container h2 {
+  display: none;
+}
   .hero3-container {
     flex-direction: column;
   }
