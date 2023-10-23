@@ -226,7 +226,7 @@ button {
   background-color: #deb63d;
   align-items: center;
   color: white;
-  padding: 2rem 10rem;
+  padding: 2rem 4rem;
 }
 .copyright {
   display: flex;
@@ -306,6 +306,7 @@ button {
   .copyright{
     text-align: center;
     width: 200px;
+    align-items: center;
   }
   .subscribe-container section {
     flex-direction: column;
