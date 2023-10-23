@@ -22,10 +22,9 @@ ul {
 /* NAVIGATION SECTION */
 nav {
   display: flex;
-  flex: 1;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 60px;
+  padding: 0px 40px;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
@@ -37,13 +36,12 @@ nav {
 .nav-items {
   display: flex;
   gap: 1rem;
-  max-width: 260px;
 }
 .nav-item {
   font-size: 14px;
 }
 .nav-item:hover {
-  border-bottom: 1px solid rebeccapurple;
+  border-bottom: 1px solid rebeccapurple;   
   color: rebeccapurple;
 }
 .fa-bars {
@@ -54,6 +52,7 @@ nav {
 
 /* HERO SECTION    */
 .hero-container {
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,7 +83,7 @@ nav {
 /* HERO SECTION 2 */
 .hero2-container {
   background-color: #5c1a8d;
-  padding: 6rem;
+  padding: 2rem;
   color: white;
 }
 
@@ -113,18 +112,18 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-items: center;
-  gap: 2rem;
-  margin-left: 4rem;
+  padding: 0px 60px;
 }
-.steps {
-  width: 39%;
+
+.steps section{
+width: 300px;
+
 }
 .step-container {
   display: flex;
+  justify-content: center;
   align-items: center;
-  flex-direction: row;
-  gap: 1rem;
+  gap: 1rem; 
 }
 .step-container p {
   font-size: 17.3px;
@@ -142,7 +141,6 @@ nav {
   position: relative;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
 }
 .hero3-container h2 {
   position: absolute;
@@ -253,9 +251,6 @@ button {
     flex-direction: column;
     margin: 0px;
   }
-  .hero2-container {
-    padding: 0px;
-  }
   .steps {
     width: 100%;
     padding: 2rem;
@@ -313,5 +308,17 @@ button {
   }
   .firstchild p {
     width: 20rem;
+  }
+  .step-container{
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero3-container{
+    text-align: center;
+  }
+  .firstchild{
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
   }
 }
