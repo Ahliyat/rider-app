@@ -227,7 +227,9 @@ button {
   padding: 2rem;
 }
 .copyright {
+  display: flex;
   justify-content: center;
+  align-items: center;
   gap: 5px;
 }
 .footer-child {
@@ -301,7 +303,7 @@ button {
   .copyright {
     text-align: center;
     width: 200px;
-    align-items: center;
+  flex-direction: column;
   }
   .subscribe-container section {
     flex-direction: column;
