@@ -294,6 +294,12 @@ button {
 @media (max-width: 670px) {
   .footer-container {
     flex-direction: column;
+    gap: 1rem;
+  }
+  .footer-child{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .subscribe-container section {
     flex-direction: column;
