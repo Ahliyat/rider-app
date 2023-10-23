@@ -236,7 +236,7 @@ button {
 }
 .footer-child {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
 /* FOOTER */
 @media (max-width: 950px) {
@@ -295,11 +295,17 @@ button {
   .footer-container {
     flex-direction: column;
     gap: 1rem;
+  
   }
   .footer-child{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 200px;
+  }
+  .copyright{
+    text-align: center;
+    width: 200px;
   }
   .subscribe-container section {
     flex-direction: column;
