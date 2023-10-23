@@ -196,6 +196,7 @@ width: 300px;
   text-align: center;
 }
 .subscribe-container section {
+  align-items: center;
   display: flex;
   gap: 5px;
 }
@@ -319,6 +320,7 @@ button {
     width: 100%;
     text-align: center;
   }
+  
   .firstchild p {
     width: 20rem;
   }
