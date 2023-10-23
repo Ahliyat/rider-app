@@ -41,7 +41,7 @@ nav {
   font-size: 14px;
 }
 .nav-item:hover {
-  border-bottom: 1px solid rebeccapurple;   
+  border-bottom: 1px solid rebeccapurple;
   color: rebeccapurple;
 }
 .fa-bars {
@@ -115,15 +115,14 @@ nav {
   padding: 0px 60px;
 }
 
-.steps section{
-width: 300px;
-
+.steps section {
+  width: 300px;
 }
 .step-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem; 
+  gap: 1rem;
 }
 .step-container p {
   font-size: 17.3px;
@@ -148,7 +147,6 @@ width: 300px;
   margin-top: 3rem;
   font-size: 36px;
   font: weight 500px;
-
 }
 .hero3-container h3 {
   font-weight: 700;
@@ -157,7 +155,6 @@ width: 300px;
 .hero3-container p {
   font-weight: 500;
   font-size: 18px;
-
 }
 .child {
   background-color: #a792fe12;
@@ -176,7 +173,7 @@ width: 300px;
   padding-bottom: 10rem;
 }
 .child2 img {
-  padding: .9rem;
+  padding: 0.9rem;
   border-radius: 50%;
 }
 /* HERO SECTION 3 */
@@ -227,12 +224,10 @@ button {
   background-color: #deb63d;
   align-items: center;
   color: white;
-  padding: 2rem 4rem;
+  padding: 2rem;
 }
 .copyright {
-  display: flex;
   justify-content: center;
-  align-items: center;
   gap: 5px;
 }
 .footer-child {
@@ -275,9 +270,9 @@ button {
     margin-top: 3rem;
     font-size: 30px;
   }
-.hero3-container h2 {
-  display: none;
-}
+  .hero3-container h2 {
+    display: none;
+  }
   .hero3-container {
     flex-direction: column;
   }
@@ -296,15 +291,14 @@ button {
   .footer-container {
     flex-direction: column;
     gap: 1rem;
-  
   }
-  .footer-child{
+  .footer-child {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 200px;
   }
-  .copyright{
+  .copyright {
     text-align: center;
     width: 200px;
     align-items: center;
@@ -320,20 +314,20 @@ button {
     width: 100%;
     text-align: center;
   }
-  
+
   .firstchild p {
     width: 20rem;
   }
-  .step-container{
+  .step-container {
     flex-direction: column;
     text-align: center;
   }
-  .hero3-container{
+  .hero3-container {
     text-align: center;
   }
-  .firstchild{
-   justify-content: center;
-   align-items: center;
-   padding: 0px;
+  .firstchild {
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
   }
 }
